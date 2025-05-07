@@ -10,6 +10,9 @@ $G_1=(V_1 , E_1)$ is isomorphic to $G_2 = (V_2, E_2)$ if there exists a
 one-to-one and onto function (bijection) $f: V_1 \rightarrow V_2$ such that $(u,v)
 \in E_1$ iff $(f(u),f(v)) \in E_2$.
 
-If the two graphse have the name number of nodes and each node is connected to every other node. then each node would have n-1 edges. Since both games have teh same number of nodes and the same number of edges. If we pair up the nodes one-to-one we can create a mapping where each node in the first graph is matched with a node in the second. Because the graphs are complete any two nodes that you look at are connected to eachother and their matched node would also be connected in the same way so this would also mean that they are isomorphic.
+If Graph1 = (V1,E1) and Graph2 = (V2,E2) are both someplete and have the same number of nodes
+|V1| = |V2| = n. then the vertex sets have teh same cardinality, there exists a bijection V1 -> V2.
+this means that each vertex in V1 can be uniquely matched to a vetex in V2. Since the graphs are complete, each pair of distinct vertices in the graphs are connected by and edge. Thus for any pair (u,v) ∈ E1 where u,v ∈ V1 and u is not equal to v, then f(u) and f(v) are distinct vertices in V2, and because G2 is complete (f(u),f(v)) ∈ E2. So because f is a bijection, for every edge (f(u), f(v)) ∈ E2, U and V must be distinct vertices in V1, and since G1 is complete it must be (u,v) ∈ E1. thus the mapping of f preserves adjacency in both directions, and so it is isomorphic between G1 and G2.
 
+I looked at other peoples approved excersises and the slides then wrote my own.
 I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
